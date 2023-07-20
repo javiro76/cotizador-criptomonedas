@@ -28,7 +28,7 @@ const Imagen = styled.img`
 const Heading = styled.h1`
   font-family: 'lato', sans-serif;
   color: #fff;
-  text-aling: center;
+  text-align:center;
   font-weight: 700;
   margin-top: 80px;
   margin-bottom: 50px;
@@ -60,7 +60,7 @@ function App() {
       <div>
         <Heading>Cotiza criptomonedas al Instante</Heading> 
         <Formulario
-          
+
         /> 
 
       </div>

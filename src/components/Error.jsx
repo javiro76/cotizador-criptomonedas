@@ -1,6 +1,22 @@
-const Error = () => {
+import styled from "@emotion/styled"
+
+const Texto = styled.div`
+  background-color: #B7322C;
+  color: #FFF;
+  padding: 15px;
+  font-size: 22px;
+  text-tranform: uppercase;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  border-radius:5px;
+`
+
+const Error = ( {children} ) => {
   return (
-    <div>Error</div>
+    <Texto>
+        {children}
+    </Texto>
   )
 }
 
